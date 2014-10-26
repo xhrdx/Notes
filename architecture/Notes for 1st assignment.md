@@ -1,0 +1,3 @@
+# Notes for the 1st assignment
+
+1.6) A cache that holds a line in the Modified state must snoop (intercept) all attempted reads (from all of the other caches in the system) of the corresponding main memory location and insert the data that it holds. This is typically done by forcing the read to back off (i.e. retry later), then writing the data to main memory and changing the cache line to the Shared state. (found here)[http://en.wikipedia.org/wiki/MESI_protocol]
